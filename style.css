@@ -809,7 +809,9 @@ place-items: center;
 
 .objetivo-imgs{
   position: relative;
-  min-width: 80%;
+  min-width: 50%;
+  max-height: 60%;
+  height: 100%;
 
 }
 
@@ -822,8 +824,8 @@ place-items: center;
   margin: 2rem 0;
 }
 .objetivo-img {
-  width: 350px;
-  height: 380px;
+  width: 200px;
+  height: 250px;
 
 
 }
@@ -847,6 +849,13 @@ place-items: center;
   padding: 5rem 3rem;
   height: 100%;
 }
+
+.objetivo-imgs{
+  position: relative;
+  min-width: 50%;
+  max-height: 100%;
+
+}
   .container-objetivo{
     padding: 0;
     display: flex;
@@ -869,10 +878,6 @@ place-items: center;
     width: 50%;
   }
 
-}
-
-@media(min-width:1002px){
-    
   .img2{
     position: absolute;
     top: 30%;
@@ -887,6 +892,8 @@ place-items: center;
   
   }
 }
+
+
 
 
 
