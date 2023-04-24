@@ -30,8 +30,9 @@ label {
 }
 .header{
   position: fixed;
-  z-index: 1000;
+
   height: 100%;
+ z-index: -1;
   width: 100%;
   overflow: hidden;
 }
@@ -48,6 +49,7 @@ height: 30px;
   position: absolute;
   top: 3.5%;
   right: 0%;
+  z-index: 10000;
  
 }
 
@@ -378,6 +380,13 @@ form input[type="date"] {
   font-size: 1rem;
   border-radius: 5px;
   padding: 0.7rem 0;
+  transition: .5s background ease-in-out;
+}
+.container-search input:hover{
+  background-color: white;
+  color: #2292a7;
+  border: 2px solid #2292a7;
+  cursor: pointer;
 }
 
 @media (min-width: 1024px) {
@@ -529,8 +538,15 @@ img {
   color: white;
   font-size: 0.8rem;
   border-radius: 10px;
+  transition: .5s background ease-in-out;
   padding: 0.7rem 0.7rem;
   text-decoration: none;
+}
+.btn-azul:hover{
+  background-color: white;
+  color: #2292a7;
+  border: 2px solid #2292a7;
+  cursor: pointer;
 }
 .swiper-pagination {
   position: relative !important;
@@ -1277,9 +1293,16 @@ height: 800px;
   background-color: #ffc107;
   text-decoration: none;
   color: white;
-
+transition: .5s background ease-in-out;
   padding: .8rem 1.3rem;
   border-radius: 10px;
+ }
+
+ .get-started-text a:hover{
+  background-color:white;
+  border: 2px solid #ffc107;
+  color: #ffc107;
+
  }
  .circle-started{
   position: absolute;
@@ -1330,6 +1353,9 @@ padding: 2rem 3rem;
  align-items: center;
 
 
+ }
+ .final-data hr{
+  color: #6d6d6d44;
  }
 .data-right{
   margin: 1rem 0;
