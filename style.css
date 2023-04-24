@@ -30,9 +30,9 @@ label {
 }
 .header{
   position: fixed;
-
+  z-index: -1;
   height: 100%;
- z-index: -1;
+
   width: 100%;
   overflow: hidden;
 }
@@ -66,6 +66,8 @@ height: 30px;
 @media(min-width:1024px){
   .header{
     position: relative;
+
+
   } 
 
   .container-header {
@@ -1355,7 +1357,7 @@ padding: 2rem 3rem;
 
  }
  .final-data hr{
-  color: #6d6d6d44;
+  color: #6d6d6d;
  }
 .data-right{
   margin: 1rem 0;

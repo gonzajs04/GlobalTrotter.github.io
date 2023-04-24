@@ -69,7 +69,8 @@ function navegacionSmooth(e){
 
     sectionHref.scrollIntoView({behavior:'smooth'});
 
-  
+    const header = document.querySelector('.header');
+    header.style.zIndex=="100" ? header.style.zIndex="-1" :  header.style.zIndex="100";
 
 }
 
