@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <title>GlobalTrotter</title>
+  </head>
+  <body>
+    <div class="header">
+        <div class="container-menu">
+            <picture><img loading=" lazy" src="imagenes/menu.png" alt="Logo menu"></picture>
+
+         </div>
+      <div class="container-header">
+
+     
+        <div class="container-nav">
+        
+          <div class="container-logo">
+            <h1>GlobalTrotter</h1>
+          </div>
+          <div class="nav">
+            <a href="">Home</a>
+            <a href="#access" class="smooth" id="tours">Tours</a>
+            <a href="#explore" class="smooth" id="destination">Destination</a>
+            <a href="#offer" class="smooth">Deals</a>
+            <a href="#objetivo" class="smooth">About us</a>
+            <a href="">Contact us</a>
+          </div>
+
+          <div class="container-buttons">
+                <div class="container-login">
+                    <a href="">Login</a>
+                </div>
+                <div class="container-signup">
+                    <a href="">Signup</a>
+                </div>
+          </div>
+
+          
+         
+        </div>
+      </div>
+    </div>
+
+    <section class="hero">
+      <div class="container-hero">
+        <div class="container-data-hero">
+          <div class="container-text-hero">
+            <h2>Explore the world, one journey at a time</h2>
+            <p>
+              Discover new destinations, plan youyr perfect trip, and book with
+              ease on GlobalTrotter
+            </p>
+          </div>
+
+          <div class="container-viajes">
+            <div class="container-tipos-viaje">
+              <button>One way</button>
+              <button>Round trip</button>
+              <button>Multi-city</button>
+            </div>
+
+            <div class="container-destino">
+              <form action="#">
+                <div class="container-from">
+                  <label for="">From</label>
+                  <select name="select-from" id="from">
+                    <option value="">Nigeria</option>
+                    <option value="">Argentina</option>
+                    <option value="">USA</option>
+                    <option value="">Inglaterra</option>
+                  </select>
+                </div>
+                <div class="container-to">
+                  <label for="select-to">to</label>
+                  <select name="select-from" id="from">
+                    <option value="">Nigeria</option>
+                    <option value="">Argentina</option>
+                    <option value="">USA</option>
+                    <option value="">Inglaterra</option>
+                  </select>
+                </div>
+                <div class="container-date">
+                  <label for="date">Expected date</label>
+                  <input type="date" name="date" id="" />
+                </div>
+                <div class="container-search">
+                  <input type="submit" value="Search" />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-hero-img">
+          <picture><img src="imagenes/heroimg.jpg" alt="" /></picture>
+        </div>
+      </div>
+    </section>
+
+    <section class="explore" id="explore">
+      <div class="container-explore">
+        <div class="explore-text">
+          <h2>Explore Top Destinations</h2>
+          <p>Check out some incredible destinations</p>
+        </div>
+
+        <div class="container-buttons-swiper">
+          <div class="container-flecha flecha2">
+            <picture
+              ><img loading="lazy" src="imagenes/flecha-izquierda.png" alt=""
+            /></picture>
+          </div>
+
+          <div class="container-flecha flecha1">
+            <picture
+              ><img loading="lazy" src="imagenes/flecha-derecha.png" alt=""
+            /></picture>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-destination">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="destination">
+                <div class="destination-img">
+                  <div class="destination-img-country">
+                    <picture
+                      ><img
+                        loading="lazy"
+                        src="imagenes/bigben.webp"
+                        alt="Imagen bigben"
+                    /></picture>
+                  </div>
+                  <div class="destination-stars">
+                    <div class="stars-img">
+                      <picture>
+                        <img loading="lazy" src="imagenes/star.png" alt=""
+                      /></picture>
+                    </div>
+                    <p>4.5</p>
+                  </div>
+                </div>
+
+                <div class="container-dest-text">
+                  <h2>The Vatican City</h2>
+                  <div class="destination-text-logo">
+                    <div class="destination-logo">
+                      <picture
+                        ><img
+                          loading="lazy"
+                          src="imagenes/location.png"
+                          alt="Imagen ciudad"
+                      /></picture>
+                    </div>
+                    <div class="destination-text">
+                      <p>Rome, Italy</p>
+                    </div>
+                  </div>
+                  <div class="destination-price">
+                    <div class="price">
+                      <p><strong>$350/</strong>person</p>
+                    </div>
+                    <div class="button-buy">
+                      <a href="" class="btn-azul">Buy now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="destination">
+                <div class="destination-img">
+                  <div class="destination-img-country">
+                    <picture
+                      ><img
+                        loading="lazy"
+                        src="imagenes/buckingham.jpg"
+                        alt="Imagen bigben"
+                    /></picture>
+                  </div>
+                  <div class="destination-stars">
+                    <div class="stars-img">
+                      <picture>
+                        <img loading="lazy" src="imagenes/star.png" alt=""
+                      /></picture>
+                    </div>
+                    <p>4.5</p>
+                  </div>
+                </div>
+
+                <div class="container-dest-text">
+                  <h2>Buckingham Palace</h2>
+                  <div class="destination-text-logo">
+                    <div class="destination-logo">
+                      <picture
+                        ><img
+                          loading="lazy"
+                          src="imagenes/location.png"
+                          alt="Imagen ciudad"
+                      /></picture>
+                    </div>
+                    <div class="destination-text">
+                      <p>London, England</p>
+                    </div>
+                  </div>
+                  <div class="destination-price">
+                    <div class="price">
+                      <p><strong>$450/</strong>person</p>
+                    </div>
+                    <div class="button-buy">
+                      <a href="" class="btn-azul">Book now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="destination">
+                <div class="destination-img">
+                  <div class="destination-img-country">
+                    <picture
+                      ><img
+                        loading="lazy"
+                        src="imagenes/dubai.jpg"
+                        alt="Imagen dubai"
+                    /></picture>
+                  </div>
+                  <div class="destination-stars">
+                    <div class="stars-img">
+                      <picture>
+                        <img loading="lazy" src="imagenes/star.png" alt=""
+                      /></picture>
+                    </div>
+                    <p>4.5</p>
+                  </div>
+                </div>
+
+                <div class="container-dest-text">
+                  <h2>United Arab Emirates</h2>
+                  <div class="destination-text-logo">
+                    <div class="destination-logo">
+                      <picture
+                        ><img
+                          loading="lazy"
+                          src="imagenes/location.png"
+                          alt="Imagen ciudad"
+                      /></picture>
+                    </div>
+                    <div class="destination-text">
+                      <p>Dubai</p>
+                    </div>
+                  </div>
+                  <div class="destination-price">
+                    <div class="price">
+                      <p><strong>$350/</strong>person</p>
+                    </div>
+                    <div class="button-buy">
+                      <a href="" class="btn-azul">Book now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="destination">
+                <div class="destination-img">
+                  <div class="destination-img-country">
+                    <picture
+                      ><img
+                        loading="lazy"
+                        src="imagenes/dubai.jpg"
+                        alt="Imagen dubai"
+                    /></picture>
+                  </div>
+                  <div class="destination-stars">
+                    <div class="stars-img">
+                      <picture>
+                        <img loading="lazy" src="imagenes/star.png" alt=""
+                      /></picture>
+                    </div>
+                    <p>4.5</p>
+                  </div>
+                </div>
+
+                <div class="container-dest-text">
+                  <h2>The Vatican City</h2>
+                  <div class="destination-text-logo">
+                    <div class="destination-logo">
+                      <picture
+                        ><img
+                          loading="lazy"
+                          src="imagenes/location.png"
+                          alt="Imagen ciudad"
+                      /></picture>
+                    </div>
+                    <div class="destination-text">
+                      <p>Rome, Italy</p>
+                    </div>
+                  </div>
+                  <div class="destination-price">
+                    <div class="price">
+                      <p><strong>$350/</strong>person</p>
+                    </div>
+                    <div class="button-buy">
+                      <a href="" class="btn-azul">Buy now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="destination">
+                <div class="destination-img">
+                  <div class="destination-img-country">
+                    <picture
+                      ><img
+                        loading="lazy"
+                        src="imagenes/dubai.jpg"
+                        alt="Imagen dubai"
+                    /></picture>
+                  </div>
+                  <div class="destination-stars">
+                    <div class="stars-img">
+                      <picture>
+                        <img loading="lazy" src="imagenes/star.png" alt=""
+                      /></picture>
+                    </div>
+                    <p>4.5</p>
+                  </div>
+                </div>
+
+                <div class="container-dest-text">
+                  <h2>The Vatican City</h2>
+                  <div class="destination-text-logo">
+                    <div class="destination-logo">
+                      <picture
+                        ><img
+                          loading="lazy"
+                          src="imagenes/location.png"
+                          alt="Imagen ciudad"
+                      /></picture>
+                    </div>
+                    <div class="destination-text">
+                      <p>Rome, Italy</p>
+                    </div>
+                  </div>
+                  <div class="destination-price">
+                    <div class="price">
+                      <p><strong>$350/</strong>person</p>
+                    </div>
+                    <div class="button-buy">
+                      <a href="" class="btn-azul">Buy now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="destination">
+                <div class="destination-img">
+                  <div class="destination-img-country">
+                    <picture
+                      ><img
+                        loading="lazy"
+                        src="imagenes/dubai.jpg"
+                        alt="Imagen dubai"
+                    /></picture>
+                  </div>
+                  <div class="destination-stars">
+                    <div class="stars-img">
+                      <picture>
+                        <img loading="lazy" src="imagenes/star.png" alt=""
+                      /></picture>
+                    </div>
+                    <p>4.5</p>
+                  </div>
+                </div>
+
+                <div class="container-dest-text">
+                  <h2>The Vatican City</h2>
+                  <div class="destination-text-logo">
+                    <div class="destination-logo">
+                      <picture
+                        ><img
+                          loading="lazy"
+                          src="imagenes/location.png"
+                          alt="Imagen ciudad"
+                      /></picture>
+                    </div>
+                    <div class="destination-text">
+                      <p>Rome, Italy</p>
+                    </div>
+                  </div>
+                  <div class="destination-price">
+                    <div class="price">
+                      <p><strong>$350/</strong>person</p>
+                    </div>
+                    <div class="button-buy">
+                      <a href="" class="btn-azul">Buy now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="offer" id="offer">
+      <div class="container-offer">
+        <div class="container-text-offer">
+          <p>What we offer</p>
+          <h2>Check Out A few advantages of joining us</h2>
+        </div>
+
+        <div class="imgs-advantage">
+          <div class="container-advantages-img">
+            <div class="container-advantages">
+              <div class="advantage">
+                <div class="number-advantage advantage1">
+                  <p>01</p>
+                </div>
+
+                <div class="advantage-text">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quasi quisquam laudantium nam inventore soluta perspiciatis
+                    eligendi harum dolorem nulla. Veniam veritatis et pariatur,
+                    a quos blanditiis ducimus dolores repellendus aut.
+                  </p>
+                </div>
+              </div>
+
+              <div class="advantage">
+                <div class="number-advantage advantage2">
+                  <p>02</p>
+                </div>
+
+                <div class="advantage-text">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quasi quisquam laudantium nam inventore soluta perspiciatis
+                    eligendi harum dolorem nulla. Veniam veritatis et pariatur,
+                    a quos blanditiis ducimus dolores repellendus aut.
+                  </p>
+                </div>
+              </div>
+
+              <div class="advantage">
+                <div class="number-advantage advantage3">
+                  <p>03</p>
+                </div>
+                <div class="advantage-text">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quasi quisquam laudantium nam inventore soluta perspiciatis
+                    eligendi harum dolorem nulla. Veniam veritatis et pariatur,
+                    a quos blanditiis ducimus dolores repellendus aut.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="containerg-imgs-advantages">
+              <div class="containerg-img-advantage">
+                <div class="container-img-advantage">
+                  <picture
+                    ><img loading="lazy" src="imagenes/camara.webp" alt=""
+                  /></picture>
+                </div>
+              </div>
+              <div class="carrouselg-imgs">
+                <div class="carrousel-imgs">
+                  <div class="carrousel-img">
+                    <picture
+                      ><img loading="lazy" src="imagenes/camara.webp" alt=""
+                    /></picture>
+                  </div>
+
+                  <div class="carrousel-img">
+                    <picture
+                      ><img loading="lazy" src="imagenes/papa.jpg" alt=""
+                    /></picture>
+                  </div>
+
+                  <div class="carrousel-img">
+                    <picture
+                      ><img loading="lazy" src="imagenes/jugo.webp" alt=""
+                    /></picture>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="" class="btn-azul">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="objetivo" id="objetivo">
+      <div class="containerg-objetivo">
+        <div class="container-objetivo">
+          <div class="objetivo-imgs">
+            <div class="objetivo-img img1">
+              <picture
+                ><img
+                  loading="lazy"
+                  src="imagenes/nieve.jpg"
+                  alt="viajero imagen"
+              /></picture>
+            </div>
+
+            <div class="objetivo-img img2">
+              <picture
+                ><img
+                  loading="lazy"
+                  src="imagenes/viajero.jpg"
+                  alt="viajero imagen"
+              /></picture>
+            </div>
+          </div>
+
+          <div class="objetivo-text">
+            <h2>We'll make sure you have a fantastic vacation.</h2>
+            <p>
+              We know that every traveler is unique, which is why we offer a
+              range of options to fit your specific nmeed, whether you're
+              looking for luxury or nudhet-friendly. we've got you covered. Our
+              team of travel experts is always on hand to provide personalized
+              recommendations and advice, so you can make the most of your trip.
+            </p>
+
+            <a href="" class="btn-azul">Learn more</a>
+
+            <div class="objetivo-numbers">
+              <div class="objetivo-partners">
+                <h3>300+</h3>
+                <p>Travelers and partners</p>
+              </div>
+              <div class="objetivo-destinations">
+                <h3>500+</h3>
+                <p>Places and Destinations</p>
+              </div>
+              <div class="objetivo-experiences">
+                <h3>10+</h3>
+                <p>Years of Experience</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="choose">
+      <div class="choose-header">
+        <div class="choose-title">
+          <h2>See Why Tourist Choose Us!</h2>
+        </div>
+        <div class="container-buttons-swiper">
+          <div class="container-flecha flecha2">
+            <picture
+              ><img loading="lazy" src="imagenes/flecha-izquierda.png" alt=""
+            /></picture>
+          </div>
+
+          <div class="container-flecha flecha1">
+            <picture
+              ><img loading="lazy" src="imagenes/flecha-derecha.png" alt=""
+            /></picture>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-choose">
+            <div id="contenedor">
+                <div class="circulo">
+
+                    <picture><img src="imagenes/modelo1.jpg" alt=""></picture>
+                    <picture><img  class="modelo4" src="imagenes/modelo4.jpg" alt="modelo 4"></picture>
+
+                </div>
+                <div class="circulo">
+                    <picture><img src="imagenes/modelo2.jpg" alt=""></picture>
+                </div>
+                <div class="circulo">
+                    <picture><img src="imagenes/modelo3.jpg" alt="">
+                    </div>
+                <div class="circulo">
+                    <picture>
+                        <img src="imagenes/modelo5.jpg" alt="">
+                    </picture>
+
+                </div>
+            </div>
+            <div class="choose-cita">
+                <div class="container-comillas comillas1">
+                  <picture
+                    ><img src="imagenes/comillas-izquierda.png" alt=""
+                  /></picture>
+                </div>
+                <p>
+                  I had an amazing experience with this travel website! The site is
+                  easy to use, the prices are great, and the customer service is
+                  top-notch. I would definitely use it again for my next trip!
+                </p>
+      
+                <div class="container-comillas comillas2">
+                  <picture
+                    ><img src="imagenes/comillas-derecha.png" alt=""
+                  /></picture>
+                </div>
+                <div class="container-nombre-autor">
+                  <div class="linea"></div>
+                  <p>Thomas Edison</p>
+                </div>
+      
+                <div class="localidad-autor">
+                  <p>Los Angeles, CA</p>
+                </div>
+              </div>
+            
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+    <section class="access" id="access">
+        <div class="container-access">
+            <div class="access-title">
+                <h2>We have access to top places around the world</h2>
+            </div>
+
+            <div class="container-access-data">
+
+                <div class="container-suscribe-acesss">
+                    <h2>Suscribe to our Newsletter</h2>
+                    <p>Stay in the loop with everything you need to know.</p>
+                    <form action="#">
+                        <div class="container-email">
+                            <input type="email" name="" id="" placeholder="Enter your email">
+                         
+                        
+                        </div>
+                       <div class="container-suscribe">
+                        <a href="" class="btn-azul">Suscribe</a>
+                       </div>
+                    </form>
+
+                </div>
+
+                <div class="container-map-access">
+                    <picture><img loading="lazy" src="imagenes/mapa.png" alt="mapa"></picture>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+
+
+    <section class="getstarted">
+    
+      
+        <div class="container-getstarted">
+
+            <div class="circle-started">
+                
+            </div>
+            <div class="circle2-started">
+            
+            </div>
+           <div class="get-started-text">
+            <div class="getstarted-title">
+                <h2>Prepare yourslef and lets explore the beauty of the world</h2>
+            </div>
+            <p>We jave lots of exclusive deals for you</p>
+            <a href="">Get Started</a>
+           </div>
+
+
+
+        </div>
+
+    </section>
+
+
+    <section class="final-data">
+
+        <div class="container-final-data">
+
+            <div class="data_text_sm"> <!--TITLE AND SOCIAL MEDIA-->
+                <h2>GlobeTrotter</h2>
+                <p>Book your next adventure with us today and discover the world in a whole new way.</p>
+                <div class="container-socialmedia">
+                    <div class="logo-final container-face">
+                        <picture><img loading="lazy" src="imagenes/face.png" alt=""></picture>
+                    </div>
+
+                    <div class="logo-final container-twitter">
+                        <picture><img loading="lazy" src="imagenes/twitter.gif" alt=""></picture>
+                    </div>
+
+                    <div class="logo-final container-insta">
+                        <picture><img loading="lazy" src="imagenes/instagram.png" alt=""></picture>
+                    </div>
+
+                    <div class="logo-final container-linkedin">
+                        <picture><img loading="lazy" src="imagenes/linkedin.png" alt=""></picture>
+                    </div>
+                    <div class="logo-final container-youtube">
+                        <picture><img loading="lazy" src="imagenes/youtube-logo-24.png" alt=""></picture>
+                    </div>
+                </div>
+
+            </div><!--TITLE AND SOCIAL MEDIA-->
+
+            <div class="data-right"><!--HOME, ABOUT US PARTER WITH US SUPPÓRT-->
+                <div class="data-home">
+                    <a href="">Home</a>
+                    <a href="">Tours</a>
+                    <a href="">Destinations</a>
+                    <a href="">About us</a>
+                    <a href="">FAQs</a>
+                    <a href="">Contact us</a>
+                </div>
+
+                <div class="data-aboutus">
+                    <a>About US</a>
+                    <a href="">About GlobeTrotter</a>
+                    <a href="">Careers</a>
+                    <a href="">How it works</a>
+                    <a href="">Blog</a>
+                </div>
+
+                <div class="data-partner">
+                    <a>Parter with us</a>
+                    <a href="">Partnership</a>
+                    <a href="">Affiliate programs</a>
+                    <a href="">Promotions and events</a>
+                    <a href="">Community</a>
+                </div>
+
+                <div class="support">
+                    <a href="">Help Center</a>
+                    <a href="">Contact Us</a>
+                    <a href="">Privacy Policy</a >
+                    <a href="">Terms of Service</a>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <footer>
+        <p>Copyright &copy GlobeTrotter 2023. All rights reserved Gonzalo Hernandez </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
