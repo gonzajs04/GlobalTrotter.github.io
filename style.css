@@ -610,6 +610,7 @@ img {
 /*OFFER*/
 
 .offer {
+  position: relative;
   padding: 3rem 0;
   background-color: white !important;
   max-width: 1800px;
@@ -947,6 +948,7 @@ place-items: center;
 
 .choose{
   max-width: 1800px;
+  position: relative;
   margin: 0 auto;
   padding: 4rem 3rem;
   background: rgb(255,255,255);
