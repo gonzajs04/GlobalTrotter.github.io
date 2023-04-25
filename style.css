@@ -30,9 +30,9 @@ label {
 }
 .header{
   position: fixed;
-  z-index: -1;
-  height: 100%;
 
+  height: 100%;
+z-index: -1;
   width: 100%;
   overflow: hidden;
 }
@@ -915,6 +915,9 @@ place-items: center;
   grid-template-columns: repeat(3,1fr);
   text-transform: capitalize;
 
+}
+.z-index100{
+  z-index: 100;
 }
 .objetivo-text h2{
   font-size: 2.4rem;
