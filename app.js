@@ -35,11 +35,12 @@ function navegacionSmooth(e) {
 
         
     }
-      if(containerNav.classList.contains('visible')){
-  
-        header.style.zIndex=100;
+    if(containerNav.classList.contains('visible')){
+        header.classList.add('zindex')
+        
     }else{
-        header.style.zIndex=-1;
+        header.classList.remove('zindex')
+
     }
 }
 function controlarClickNav() {
@@ -57,10 +58,11 @@ function desplegarMenu() {
         containerNav.classList.contains("visible"))
    
     if(containerNav.classList.contains('visible')){
-  
-        header.style.zIndex=100;
+        header.classList.add('zindex')
+        
     }else{
-        header.style.zIndex=-1;
+        header.classList.remove('zindex')
+
     }
    
 
