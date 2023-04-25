@@ -442,6 +442,7 @@ form input[type="date"] {
 
 .explore {
   max-width: 1800px;
+  position: relative;
   margin: 0 auto;
   padding: 0;
   padding: 1rem 2rem;
@@ -449,6 +450,7 @@ form input[type="date"] {
 }
 @media (min-width: 1800px) {
   .explore {
+    position: relative;
     padding: 0 2rem;
   }
 }
@@ -958,6 +960,7 @@ place-items: center;
 @media(min-width:1800px){
   .choose{
     max-width: 1800px;
+    position: relative;
     margin: 0 auto;
     padding: 1rem 0rem;
   }
