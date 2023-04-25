@@ -302,10 +302,18 @@ height: 30px;
   width: 150px;
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
+  transition: background .2s ease-in-out;
 }
-.container-tipos-viaje button:first-child {
-  background-color: var(--amarillo);
+
+
+.active{
+  background-color: #ffc107;
 }
+
+
+
+
+
 
 .container-destino form label {
   display: block;
