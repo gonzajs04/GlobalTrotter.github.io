@@ -1331,7 +1331,7 @@ transition: .5s background ease-in-out;
  .circle2-started{
   position: absolute;
 
-  top:-30%;
+  top:-15%;
   right: -5%;
 
   width: 200px;
