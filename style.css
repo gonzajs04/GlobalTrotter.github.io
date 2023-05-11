@@ -553,6 +553,7 @@ img {
   cursor: pointer;
 }
 .swiper-pagination {
+  margin: 2rem 0;
   position: relative !important;
 }
 .swiper-pagination-bullet {
