@@ -1284,7 +1284,8 @@ height: 400px;
   text-align: center;
   color: white;
   border-radius: 15px;
-
+display: flex;
+align-items: center;
 
  }
 
